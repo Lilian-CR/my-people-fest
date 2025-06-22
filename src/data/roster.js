@@ -8,7 +8,7 @@ const roster = [
     video: "https://www.youtube.com/embed/7wyzTY-B4Do?si=Hl6zGa_JaYN63pAp",
     socials: {
       instagram: "https://www.instagram.com/bloodybenders/",
-      facebook: "www.facebook.com/bloodybendersmx",
+      facebook: "https://www.facebook.com/bloodybendersmx",
       spotify: "https://open.spotify.com/intl-pt/artist/4AcOUHdT2D0QRvY7bRnGMA?si=DvbICwvdSfmnytw366BJjw&fbclid=PAZXh0bgNhZW0CMTEAAadaQNvxr8fUpGl0R1pjdcLzA0TD9wcNMYbSJWdu6v1-SNNATdH_YoaS3jzfKw_aem_L1pqWG8ShffGaQjeCVOrVg&nd=1&dlsi=fd7b09ca4876496d",
     },
     bio: "BLOODY BENDERS is a dark and rebellious punk band, with lyrics that innovate witches from the bonfire, vampires ready to have fun, but also ready to rise their voices using punk against social injustice, as a protest claim, not only the music surrounds them, also the visual part, accompanied by performance and visual media which has made them accepted on different musical genres and has led perform on many of the best stages and festivals at their country, Mexico, and another parts of the world like, Colombia, Costa Rica and United States of America."
