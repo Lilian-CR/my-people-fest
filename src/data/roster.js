@@ -59,7 +59,7 @@ Building on this momentum and prominence, the band is gearing up for their first
     id: 5,
     name: "SPIT ACID",
     image: "/images/Spit-acid.jpg",
-    video: "https://www.youtube.com/embed/ZeejF_zCGPs?si=XazzNfG8MQJrY2FL",
+    video: "https://www.youtube.com/embed/6pktiJTUMIs?si=xxfWB9bVWaNKmCXo",
     socials: {
       instagram: "https://instagram.com/spitacid.hcpunk",
       spotify: "https://open.spotify.com/intl-pt/artist/4sviXxJ3kfuhLWvhBpqKUI",
