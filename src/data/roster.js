@@ -81,7 +81,7 @@ Building on this momentum and prominence, the band is gearing up for their first
   {
     id: 7,
     name: "PRETTY AVERAGE",
-    image: "/images/Pretty-Average.png",
+    image: "/images/Pretty-Average.jpg",
     video: "https://www.youtube.com/embed/uJEWRjRpRzM?si=r6T5N1PJkgTj4S1s",
     socials: {
       instagram: "https://www.instagram.com/prettyaveragetheband/",
