@@ -1,7 +1,7 @@
 # MY PEOPLE FEST
 
 Welcome to the official codebase of **MY PEOPLE FEST**, a grassroots, DIY hardcore/punk festival created to increase diversity in alternative music scenes in Berlin and across Europe. 
-(./public/images/read-me_mpf.png)
+(./public/images/read-me_mpf.jpg)
 
 
 ## About the Project
