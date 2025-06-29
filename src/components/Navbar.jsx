@@ -1,6 +1,7 @@
 // src/components/Navbar.jsx
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/logo.png";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -21,6 +22,15 @@ export default function Navbar() {
   return (
     <header className="bg-mpf-gold text-mpf-black sticky top-0 z-50">
       <nav className="relative max-w-[950px] mx-auto px-4 flex items-center justify-between h-14">
+
+          {/* Logo (left) */}
+        <Link to="/" className="flex-shrink-0">
+          <img
+            src={logo}
+            alt="My People Booking Logo"
+            className="h-8 sm:h-10 object-contain"
+          />
+        </Link>
 
        {/* Desktop Nav - centered */}
 <div className="hidden md:flex gap-24 font-bold text-sm uppercase absolute left-1/2 transform -translate-x-1/2">
