@@ -49,7 +49,7 @@ export default function Navbar() {
 
         {/* ✅ Hamburger (right) */}
         <button
-          className="md:hidden text-2xl text-white ml-auto"
+          className="md:hidden text-2xl text-black ml-auto"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
