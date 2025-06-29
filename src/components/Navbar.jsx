@@ -59,7 +59,7 @@ export default function Navbar() {
 
       {/* ✅ Mobile Menu Panel */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed top-0 right-0 h-1/2 w-2/3 bg-mpf-gold backdrop-blur-sm p-6 flex flex-col gap-6 text-right font-bold text-sm uppercase text-black rounded-bl-lg items-end z-50 shadow-xl">
+        <div className="md:hidden fixed top-0 right-0 h-1/2 w-3/5 bg-mpf-gold backdrop-blur-sm p-6 flex flex-col gap-6 text-right font-bold text-sm uppercase text-black rounded-bl-lg items-end z-50 shadow-xl">
           {navLinks.map((link) =>
             link.external ? (
               <a
