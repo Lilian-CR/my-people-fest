@@ -8,9 +8,9 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-[#221313] text-white text-sm py-2 px-4 bottom-0 w-full z-50">
-        <div className="max-w-5xl mx-auto flex flex-wrap justify-between items-center gap-x-8 gap-y-2 text-xs text-center sm:flex-nowrap">
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-between items-center gap-x-4 gap-y-2 text-xs text-center sm:flex-nowrap">
           {/* Social Icons */}
-          <div className="flex gap-4 text-lg">
+          <div className="flex gap-2 text-lg">
             <a
               href="https://www.facebook.com/mypeoplefestival"
               target="_blank"
@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="text-xs">MY PEOPLE FESTIVAL - ©2025</div>
 
           {/* Legal Links */}
-          <div className="flex gap-4 text-xs">
+          <div className="flex gap-2 text-xs">
             <button
               className="underline hover:text-white"
               onClick={() => setOpenModal("imprint")}
