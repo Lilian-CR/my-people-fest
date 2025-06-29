@@ -2,7 +2,7 @@
 
 Welcome to the official codebase of **MY PEOPLE FEST**, a grassroots, DIY hardcore/punk festival created to increase diversity in alternative music scenes in Berlin and across Europe. 
 <br></br>
-<img src="./public/images/read-me_mpf.jpg" alt="My People Fest" width="600"/>
+<img src="./public/images/read-me_mpf.jpg" alt="My People Fest"/>
 
 ## About the Project
 
