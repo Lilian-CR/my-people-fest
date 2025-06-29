@@ -1,4 +1,4 @@
-ts// src/pages/Home.jsx
+// src/pages/Home.jsx
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import roster from "../data/roster";
