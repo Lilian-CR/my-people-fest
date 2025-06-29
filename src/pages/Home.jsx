@@ -1,4 +1,4 @@
-// src/pages/Home.jsx
+ts// src/pages/Home.jsx
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import roster from "../data/roster";
@@ -115,7 +115,7 @@ export default function Home() {
             <p><strong>LOCATION:</strong> <br></br><strong>✿ Neue Zukunft ✿</strong><br></br>Alt-Stralau, 68 - 10245 Berlin</p>
             <p><strong>OPENING TIMES:</strong> <br></br>Biergarten opens from 16:00 on.<br></br>Bands 19:00 on Friday * 18:00 on Saturday.</p>
             <p><strong>ACCESSIBILITY:</strong> <br></br>Concert rooms and toilet are wheelchair accessible.</p>
-            <p><strong>CAPACITY:</strong> <br></br>Friday <strong>JULY 11TH</strong> @ Main Room - 300 people.<br></br>Saturday <strong>JULY 12TH</strong> @ Garage - 120 People</p>
+            <p><strong>CAPACITY:</strong> <br></br>Friday <strong>JULY 11TH</strong> @ Main Room - 300 Guests.<br></br>Saturday <strong>JULY 12TH</strong> @ Garage - 120 Guests.</p>
           </div>
         </section>
 
