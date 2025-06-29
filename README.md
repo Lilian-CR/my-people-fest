@@ -44,12 +44,8 @@ The platform provides:
 
 ## Project Structure
 
-src/
-├── assets/ # Images and media
-├── components/ # Reusable UI (Navbar, Footer, LegalModal, etc.)
-├── data/ # Static band roster
-├── pages/ # Page-specific layout (Home, Roster, etc.)
-└── App.jsx # Main routing component
+<br></br>
+<img src="./public/images/project-strucuture.PNG" alt="Product Structure"/>
 
 ---
 
