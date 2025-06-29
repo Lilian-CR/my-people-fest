@@ -22,6 +22,26 @@ export default function Navbar() {
     <header className="bg-mpf-gold text-mpf-black sticky top-0 z-50">
       <nav className="relative max-w-[950px] mx-auto px-4 flex items-center justify-between h-14">
 
+        {/* ✅ Social Icons - left */}
+        <div className="flex gap-3 text-lg">
+          <a
+            href="https://www.facebook.com/mypeoplefestival"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <i className="fab fa-facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/mypeoplefestival"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i className="fab fa-instagram" />
+          </a>
+        </div>
+
         {/* ✅ Desktop Nav - centered */}
         <div className="hidden md:flex gap-24 font-bold text-sm uppercase absolute left-1/2 transform -translate-x-1/2">
           {navLinks.map((link) =>
