@@ -49,7 +49,7 @@ The platform provides:
 
 ## Live Website
 
-[Visit My People Fest](https://mypeoplefest.net)  
+[https://mypeoplefest.net](https://mypeoplefest.net)
 
 ---
 
