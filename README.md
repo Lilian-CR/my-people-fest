@@ -45,7 +45,7 @@ The platform provides:
 ## Project Structure
 
 <br></br>
-<img src="./public/images/project-strucuture.PNG" alt="Product Structure"/>
+<img src="./public/images/project-structure.png" alt="Product Structure"/>
 
 ---
 
