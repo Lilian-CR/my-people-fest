@@ -46,7 +46,7 @@ Building on this momentum and prominence, the band is gearing up for their first
   {
     id: 4,
     name: "QUIT",
-    image: "/images/Quit.jpg", 
+    image: "/images/Quit.png", 
     video: "https://www.youtube.com/embed/dNcjy1gN6NE",
     socials: {
       instagram: "https://www.instagram.com/quit_hc/",
