@@ -112,17 +112,6 @@ Building on this momentum and prominence, the band is gearing up for their first
     },
     bio: "Mish Mish is an independent alternative rock duo composed of Aganju on beat machines, guitar and vocals & Dally on bass, loops and vocals. Inspired by the psychedelic sounds of the 1970s, such as the distortions of underground bands from the 1990s, and the various radical and transformative counter-cultural aesthetics. A duo of artists who have been working together since 2014 creating performances, music and videos believing in the power of “do it yourself” and art as a way of life. One of the different and interesting components of Mish Mish is the use of beat machines that are programmed and created for each song. In addition, the compositions, made by both members, also bring within themselves a mixture of their poetic universes."
   },
-  {
-    id: 10,
-    name: "_FREE SLOT LOOKING FOR BAND",
-    image: "/images/Free-Slot.jpg",
-    video: "https://www.youtube.com/embed/TJJOVbZz97k?si=ufghHfLk3xub2HTr",
-    socials: {
-      instagram: "https://www.instagram.com/mypeoplefestival",
-      facebook: "https://www.facebook.com/mypeoplefestival"
-    },
-    bio: "Looking for a band to join Saturday, July 12th. Melodic/indie direction. To support Bloody Benders. Get in touch!"
-  }
 ];
 
 export default roster;
