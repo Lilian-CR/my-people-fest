@@ -56,7 +56,7 @@ The platform provides:
 ## 👩🏾‍💻 Made by
 - Lilian Rodrigues
 - Junior Web Developer — Berlin/DE 
-- [GitHub](https://github.com/Lilian-CR)
+- [LilianTree](https://liliantree.netlify.app)
 ---
 
 ## License
