@@ -13,7 +13,7 @@ export default function Home() {
         {/* HERO */}
         <section id="hero" className="bg-[#1b2128] text-white text-center py-24">
           <img
-            src="/images/Hero_2026.jpg"
+            src="public/images/Hero_2026.jpg"
             alt="MY PEOPLE FEST 2026"
             className="mx-auto w-full max-w-[900px] h-auto"
           />
@@ -123,6 +123,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
