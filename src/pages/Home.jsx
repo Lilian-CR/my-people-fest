@@ -22,25 +22,6 @@ export default function Home() {
         {/* LINE-UP */}
         <section id="lineup_26" className="bg-[#221313] text-[#C49A3D] py-16">
           <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">LINE-UP IN DECEMBER 2026</h2>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
-            {[...roster]
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .slice(0, 10)
-              .map((band, index) => (
-                <div
-                  key={index}
-                  className="cursor-pointer hover:scale-105 transition-transform duration-200"
-                  onClick={() => setSelectedBand(band)}
-                >
-                  <img
-                    src={band.image}
-                    alt={band.name}
-                    className="w-full h-48 object-cover rounded"
-                  />
-                  <p className="text-center text-sm mt-2 font-semibold">{band.name}</p>
-                </div>
-              ))}
-          </div>
         </section>
 
         {/* MODAL */}
@@ -142,4 +123,5 @@ export default function Home() {
     </div>
   );
 }
+
 
