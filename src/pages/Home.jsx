@@ -11,10 +11,10 @@ export default function Home() {
       <div className="max-w-[950px] mx-auto px-4">
 
         {/* HERO */}
-        <section id="hero" className="bg-[#221313] text-white text-center py-8">
+        <section id="hero" className="bg-[#1b2128] text-white text-center py-24">
           <img
             src="/images/Hero_2026.jpg"
-            alt="My People Fest 2026"
+            alt="MY PEOPLE FEST 2026"
             className="mx-auto w-full max-w-[900px] h-auto"
           />
         </section>
@@ -123,5 +123,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
