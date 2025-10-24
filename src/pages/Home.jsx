@@ -13,15 +13,15 @@ export default function Home() {
         {/* HERO */}
         <section id="hero" className="bg-[#221313] text-white text-center py-8">
           <img
-            src="/images/logo.png"
-            alt="My People Fest 2025"
+            src="/images/Hero_2026.jpg"
+            alt="My People Fest 2026"
             className="mx-auto w-full max-w-[900px] h-auto"
           />
         </section>
 
         {/* LINE-UP */}
-        <section id="lineup" className="bg-[#221313] text-[#C49A3D] py-16">
-          <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">LINE-UP</h2>
+        <section id="lineup_26" className="bg-[#221313] text-[#C49A3D] py-16">
+          <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">LINE-UP IN DECEMBER 2026</h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
             {[...roster]
               .sort((a, b) => a.name.localeCompare(b.name))
@@ -110,13 +110,7 @@ export default function Home() {
 
         {/* GENERAL INFOS */}
         <section id="infos" className="bg-[#C49A3D] text-black py-16 text-center">
-          <h2 className="text-3xl font-bold mb-10 tracking-wide">GENERAL INFORMATION</h2>
-          <div className="space-y-6 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
-            <p><strong>LOCATION:</strong> <br></br><strong>✿ Neue Zukunft ✿</strong><br></br>Alt-Stralau, 68 - 10245 Berlin</p>
-            <p><strong>OPENING TIMES:</strong> <br></br>Biergarten opens from 16:00 on.<br></br>Bands 19:00.</p>
-            <p><strong>ACCESSIBILITY:</strong> <br></br>Concert rooms and toilet are wheelchair accessible.</p>
-            <p><strong>CAPACITY:</strong> <br></br>Friday <strong>JULY 11TH</strong> @ Main Room - 300 Guests.<br></br>Saturday <strong>JULY 12TH</strong> @ Garage - 120 Guests.</p>
-          </div>
+          <h2 className="text-3xl font-bold mb-10 tracking-wide">GENERAL INFORMATION / LOANDING</h2>
         </section>
 
         {/* ABOUT */}
@@ -148,3 +142,4 @@ export default function Home() {
     </div>
   );
 }
+
