@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import roster from "../data/roster";
+import heroImage from "../images/Hero_2026.jpg";
 
 export default function Home() {
   const [selectedBand, setSelectedBand] = useState(null);
@@ -12,12 +13,13 @@ export default function Home() {
 
         {/* HERO */}
         <section id="hero" className="bg-[#1b2128] text-white text-center py-24">
-          <img
-            src="public/images/Hero_2026.jpg"
-            alt="MY PEOPLE FEST 2026"
-            className="mx-auto w-full max-w-[900px] h-auto"
-          />
-        </section>
+  <h1 className="text-3xl md:text-4xl font-bold mb-6">MY PEOPLE FEST 2026</h1>
+  <img
+    src={heroImage}
+    alt="MY PEOPLE FEST 2026"
+    className="mx-auto w-full max-w-[900px] h-auto"
+  />
+</section>
 
         {/* LINE-UP */}
         <section id="lineup_26" className="bg-[#221313] text-[#C49A3D] py-16">
@@ -123,6 +125,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
