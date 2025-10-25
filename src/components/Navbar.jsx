@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <header className="bg-black text-white sticky top-0 z-50">
-      <nav className="relative max-w-[950px] mx-auto px-4 flex items-center justify-between h-14">
+      <nav className="relative max-w-[950px] mx-auto px-4 flex items-right justify-between h-20">
 
         {/* Social Icons – Mobile Only */}
         <div className="flex gap-3 text-lg md:hidden">
@@ -103,5 +103,3 @@ export default function Navbar() {
     </header>
   );
 }
-
-
