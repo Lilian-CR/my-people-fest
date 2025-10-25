@@ -14,10 +14,10 @@ export default function Navbar() {
 
   return (
     <header className="bg-black text-white sticky top-0 z-50 w-full">
-      <nav className="h-16 flex items-center justify-end px-6">
+      <nav className="h-14 flex items-center justify-end px-6">
 
-        {/* Desktop Nav Links – RIGHT ALIGNED, CENTERED VERTICALLY */}
-        <div className="hidden md:flex gap-10 font-morganite text-[2.5rem] tracking-widest uppercase not-italic leading-none">
+        {/* Desktop Nav – Right Aligned */}
+        <div className="hidden md:flex gap-10 font-morganite text-[2.5rem] tracking-wider uppercase not-italic leading-none">
           {navLinks.map((link) =>
             link.external ? (
               <a
@@ -41,7 +41,7 @@ export default function Navbar() {
           )}
         </div>
 
-        {/* Hamburger - Mobile Only */}
+        {/* Hamburger – Mobile Only */}
         <button
           className="md:hidden text-3xl ml-auto"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
