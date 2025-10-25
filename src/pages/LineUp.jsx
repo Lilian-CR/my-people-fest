@@ -7,8 +7,8 @@ export default function LineUp() {
     <div className="bg-[#1f1f1f] text-white min-h-screen">
       {/* Header */}
       <header className="text-center py-12 bg-[#5e0f0f]">
-        <h1 className="text-4xl font-bold tracking-wider">MPF 2025 LINE-UP</h1>
-        <p className="mt-2 text-sm">July 11th & 12th • Neue Zukunft • Berlin</p>
+        <h1 className="text-4xl font-bold tracking-wider">MPF 2026 LINE-UP</h1>
+        <p className="mt-2 text-sm">Coming soon! • Berlin</p>
       </header>
 
       {/* Line-Up Grid */}
