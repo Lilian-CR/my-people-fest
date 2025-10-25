@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Morganite:wght@700&display=swap');
+
 body {
   font-family: 'Helvetica Neue', sans-serif;
   @apply bg-white text-black;
@@ -9,7 +11,12 @@ body {
   padding: 0;
 }
 
+.font-morganite {
+  font-family: 'Morganite', sans-serif;
+  font-weight: 700;
+  font-style: normal !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
-
