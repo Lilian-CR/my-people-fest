@@ -9,7 +9,6 @@ export default function Home() {
 
   return (
     <div className="text-black bg-[#221313] scroll-smooth">
-      <div className="max-w-[950px] mx-auto px-4">
 
         {/* HERO */}
         <section id="hero" className="bg-[#1b2128] text-white text-center py-24">
@@ -17,7 +16,7 @@ export default function Home() {
   <img
     src={heroImage}
     alt="MY PEOPLE FEST 2026"
-    className="mx-auto w-full max-w-[900px] h-auto"
+    className="mx-auto w-full h-auto"
   />
 </section>
 
@@ -125,6 +124,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
