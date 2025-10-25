@@ -14,10 +14,10 @@ export default function Navbar() {
 
   return (
     <header className="bg-black text-white sticky top-0 z-50 w-full">
-      <nav className="h-16 flex items-center justify-end px-6">
+      <nav className="h-20 flex items-center justify-end px-6">
 
         {/* Desktop Nav Links – RIGHT ALIGNED, CENTERED VERTICALLY */}
-        <div className="hidden md:flex gap-10 font-bold text-lg uppercase">
+        <div className="hidden md:flex gap-10 font-morganite text-2xl tracking-wider uppercase">
           {navLinks.map((link) =>
             link.external ? (
               <a
@@ -43,7 +43,7 @@ export default function Navbar() {
 
         {/* Hamburger - Mobile Only */}
         <button
-          className="md:hidden text-2xl ml-auto"
+          className="md:hidden text-3xl ml-auto"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
@@ -53,7 +53,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed top-0 right-0 h-1/2 w-3/5 bg-mpf-gold backdrop-blur-sm p-6 flex flex-col gap-6 text-right font-bold text-sm uppercase text-black rounded-bl-lg items-end z-50 shadow-xl">
+        <div className="md:hidden fixed top-0 right-0 h-1/2 w-3/5 bg-mpf-beige backdrop-blur-sm p-6 flex flex-col gap-6 text-right font-morganite text-lg uppercase text-black rounded-bl-lg items-end z-50 shadow-xl">
           {navLinks.map((link) =>
             link.external ? (
               <a
@@ -70,7 +70,7 @@ export default function Navbar() {
               <a
                 key={link.label}
                 href={link.href}
-                className="hover:text-mpf-black transition"
+                className="hover:text-black transition"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.label}
