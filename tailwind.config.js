@@ -10,7 +10,7 @@ module.exports = {
         'mpf-beige': '#E1CFA5',
       },
       fontFamily: {
-        morganite: ['Morganite', 'sans-serif'], // Added custom font
+        morganite: ['Morganite', 'sans-serif'],
       },
     },
   },
