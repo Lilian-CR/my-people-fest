@@ -21,7 +21,7 @@ export default function Home() {
       </section>
 
       {/* LINE-UP */}
-      <section id="lineup_26" className="bg-[#000000] text-[#C49A3D] py-16 px-4">
+      <section id="lineup_26" className="bg-[#000000] text-[#ffffff] py-16 px-4">
         <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">
           LINE-UP IN DECEMBER 2026
         </h2>
@@ -95,7 +95,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="bg-[#1b2128] py-16 px-4 text-[#ffffff]">
+      <section id="about" className="bg-[#000000] py-16 px-4 text-[#ffffff]">
         <h2 className="text-3xl font-semibold mb-6 tracking-wide text-center">ABOUT</h2>
         <div className="max-w-3xl mx-auto leading-relaxed text-sm md:text-base text-justify">
           <p className="mb-4 font-medium">
@@ -113,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="bg-[#000000] py-10 text-center px-4">
+      <section id="contact" className="bg-[#1b2128] py-10 text-center px-4">
         <h2 className="text-2xl font-semibold mb-4">CONTACT</h2>
         <p className="text-sm mb-4">mypeoplebooking (at) gmail . com</p>
         <div className="flex justify-center gap-6 text-lg" />
@@ -122,3 +122,4 @@ export default function Home() {
     </div>
   );
 }
+
