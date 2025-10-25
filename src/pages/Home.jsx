@@ -1,5 +1,4 @@
 // src/pages/Home.jsx
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import roster from "../data/roster";
 import heroImage from "../images/Hero_2026.jpg";
@@ -10,17 +9,17 @@ export default function Home() {
   return (
     <div className="bg-[#000000] text-white scroll-smooth">
 
-      {/* HERO */}
-      <section id="hero" className="bg-[#1b2128] text-white text-center py-24 px-4">
+      {/* HERO (FULL-WIDTH) */}
+      <section id="hero" className="w-full">
         <img
           src={heroImage}
           alt="MY PEOPLE FEST 2026"
-          className="w-full h-auto"
+          className="w-full h-auto block"
         />
       </section>
 
       {/* LINE-UP */}
-      <section id="lineup_26" className="bg-[#000000] text-[#ffffff] py-16 px-4">
+      <section id="lineup_26" className="w-full bg-[#000000] text-[#ffffff] py-16 px-4">
         <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">
           LINE-UP IN DECEMBER 2026
         </h2>
@@ -31,9 +30,7 @@ export default function Home() {
         <div className="fixed inset-0 bg-black bg-opacity-70 z-50 overflow-y-auto p-4">
           <div className="bg-white max-w-[900px] w-full mx-auto p-6 rounded shadow-lg relative mt-10 mb-10">
             <div className="flex justify-between items-start mb-4">
-              <h2 className="text-2xl font-bold text-[#5e0f0f] uppercase">
-                {selectedBand.name}
-              </h2>
+              <h2 className="text-2xl font-bold text-[#5e0f0f] uppercase">{selectedBand.name}</h2>
               <div className="flex gap-3 text-xl text-[#5e0f0f]">
                 {selectedBand.socials?.instagram && (
                   <a href={selectedBand.socials.instagram} target="_blank" rel="noreferrer">
@@ -88,13 +85,15 @@ export default function Home() {
         </div>
       )}
 
-      {/* GENERAL INFOS */}
-      <section id="infos" className="bg-[#1b2128] text-white py-16 text-center px-4">
-        <h2 className="text-3xl font-bold mb-10 tracking-wide">GENERAL INFORMATION / LOANDING</h2>
+      {/* GENERAL INFO */}
+      <section id="infos" className="w-full bg-[#1b2128] text-white py-16 text-center px-4">
+        <h2 className="text-3xl font-bold mb-10 tracking-wide">
+          GENERAL INFORMATION / LOANDING
+        </h2>
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="bg-[#000000] py-16 px-4 text-[#ffffff]">
+      <section id="about" className="w-full bg-[#000000] py-16 px-4 text-[#ffffff]">
         <h2 className="text-3xl font-semibold mb-6 tracking-wide text-center">ABOUT</h2>
         <div className="max-w-3xl mx-auto leading-relaxed text-sm md:text-base text-justify">
           <p className="mb-4 font-medium">
@@ -112,7 +111,7 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="bg-[#1b2128] py-10 text-center px-4">
+      <section id="contact" className="w-full bg-[#1b2128] py-10 text-center px-4">
         <h2 className="text-2xl font-semibold mb-4">CONTACT</h2>
         <p className="text-sm mb-4">mypeoplebooking (at) gmail . com</p>
         <div className="flex justify-center gap-6 text-lg" />
@@ -121,5 +120,3 @@ export default function Home() {
     </div>
   );
 }
-
-
