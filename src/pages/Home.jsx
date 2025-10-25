@@ -12,7 +12,6 @@ export default function Home() {
 
       {/* HERO */}
       <section id="hero" className="bg-[#1b2128] text-white text-center py-24 px-4">
-        <h1 className="text-3xl md:text-4xl font-bold mb-6">MY PEOPLE FEST 2026</h1>
         <img
           src={heroImage}
           alt="MY PEOPLE FEST 2026"
@@ -122,4 +121,5 @@ export default function Home() {
     </div>
   );
 }
+
 
