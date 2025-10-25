@@ -8,7 +8,7 @@ export default function Home() {
   const [selectedBand, setSelectedBand] = useState(null);
 
   return (
-    <div className="text-black bg-[#221313] scroll-smooth">
+    <div className="text-#1b2128 bg-[#000000] scroll-smooth">
 
         {/* HERO */}
         <section id="hero" className="bg-[#1b2128] text-white text-center py-24">
@@ -21,7 +21,7 @@ export default function Home() {
 </section>
 
         {/* LINE-UP */}
-        <section id="lineup_26" className="bg-[#221313] text-[#C49A3D] py-16">
+        <section id="lineup_26" className="bg-[#000000] text-[#C49A3D] py-16">
           <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">LINE-UP IN DECEMBER 2026</h2>
         </section>
 
@@ -91,12 +91,12 @@ export default function Home() {
         )}
 
         {/* GENERAL INFOS */}
-        <section id="infos" className="bg-[#C49A3D] text-black py-16 text-center">
+        <section id="infos" className="bg-[#1b2128] text-white py-16 text-center">
           <h2 className="text-3xl font-bold mb-10 tracking-wide">GENERAL INFORMATION / LOANDING</h2>
         </section>
 
         {/* ABOUT */}
-        <section id="about" className="bg-[#221313] py-16 px-6 text-[#C49A3D]">
+        <section id="about" className="bg-[#1b2128] py-16 px-6 text-[#ffffff]">
           <h2 className="text-3xl font-semibold mb-6 tracking-wide text-center">ABOUT</h2>
           <div className="max-w-3xl mx-auto leading-relaxed text-sm md:text-base text-justify">
             <p className="mb-4 font-medium">
@@ -114,7 +114,7 @@ export default function Home() {
         </section>
 
         {/* CONTACT */}
-        <section id="contact" className="bg-[#C49A3D] py-10 text-center">
+        <section id="contact" className="bg-[#000000] py-10 text-center">
           <h2 className="text-2xl font-semibold mb-4">CONTACT</h2>
           <p className="text-sm mb-4">mypeoplebooking (at) gmail . com</p>
           <div className="flex justify-center gap-6 text-lg" />
@@ -124,9 +124,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-
-
-
