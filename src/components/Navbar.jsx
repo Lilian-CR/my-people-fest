@@ -11,11 +11,6 @@ export default function Navbar() {
     { label: "GENERAL INFORMATION", href: "#infos" },
     { label: "ABOUT", href: "#about" },
     { label: "CONTACT", href: "#contact" },
-    {
-      label: "TICKETS",
-      href: "https://www.eventbrite.com/e/my-people-fest-2025-july-11th-12th-tickets-1417559531719",
-      external: true,
-    },
   ];
 
   return (
@@ -108,3 +103,4 @@ export default function Navbar() {
     </header>
   );
 }
+
