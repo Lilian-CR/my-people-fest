@@ -5,18 +5,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Morganite:wght@700&display=swap');
 
 body {
-  font-family: 'Helvetica Neue', sans-serif;
   @apply bg-white text-black;
+  font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .font-morganite {
-  font-family: 'Morganite', sans-serif;
-  font-weight: 700;
+  font-family: 'Morganite', sans-serif !important;
+  font-weight: 700 !important;
   font-style: normal !important;
 }
 
+/* Smooth Scrolling */
 html {
   scroll-behavior: smooth;
 }
