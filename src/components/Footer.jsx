@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-[#221313] text-white text-sm py-2 px-4 bottom-0 w-full z-50">
+      <footer className="bg-[#ffffff] text-black text-sm py-2 px-4 bottom-0 w-full z-50">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-between items-center gap-x-6 gap-y-2 text-xs text-center sm:flex-nowrap">
 
           {/* ✅ Social Icons - only show on desktop */}
