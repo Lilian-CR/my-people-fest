@@ -24,7 +24,7 @@ export default function Navbar() {
             alt="My People Fest Logo"
             className="h-10 w-auto object-contain"
           />
-          <span className="hidden md:inline-block text-[#f8bc69] font-morganite text-[2rem] tracking-widest uppercase not-italic leading-none">
+          <span className="hidden md:inline-block text-[#f8bc69] font-morganite text-[2.5rem] tracking-widest uppercase not-italic leading-none">
             July 2026
           </span>
         </div>
@@ -70,6 +70,7 @@ export default function Navbar() {
     </header>
   );
 }
+
 
 
 
