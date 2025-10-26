@@ -54,7 +54,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed top-0 right-0 h-1/2 w-3/5 bg-mpf-beige backdrop-blur-sm p-6 flex flex-col gap-6 text-right font-morganite text-2xl uppercase text-black rounded-bl-lg items-end z-50 shadow-xl not-italic">
+        <div className="md:hidden fixed top-0 right-0 h-1/3 w-1/3 bg-#3f5774 backdrop-blur-sm p-6 flex flex-col gap-6 text-right font-morganite text-2xl uppercase text-black rounded-bl-lg items-end z-50 shadow-xl not-italic">
           {navLinks.map((link) => (
             <a
               key={link.label}
@@ -70,4 +70,5 @@ export default function Navbar() {
     </header>
   );
 }
+
 
