@@ -8,6 +8,7 @@ module.exports = {
         'mpf-black': '#221313',
         'mpf-white': '#F4F4F4',
         'mpf-green': '#36645d',
+        'mpf-yellow': '#f8bc69',
       },
       fontFamily: {
         morganite: ['Morganite', 'sans-serif'],
