@@ -23,7 +23,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">
           LINE-UP 
         </h2>
-        p className="mb-4 font-medium">
+        <p className="mb-4 font-medium">
             Announcement in December 2026
           </p>
       </section>
@@ -93,7 +93,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-10 tracking-wide">
           GENERAL INFORMATION
         </h2>
-         p className="mb-4 font-medium">
+         <p className="mb-4 font-medium">
             Loanding
           </p>
       </section>
@@ -126,5 +126,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
