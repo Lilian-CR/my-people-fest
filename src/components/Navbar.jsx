@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <header className="bg-black sticky top-0 z-50 w-full">
-      <nav className="h-14 flex items-center justify-between px-6">
+      <nav className="h-10 flex items-center justify-between px-6">
 
         {/* Left: Logo + Text */}
         <div className="flex items-center gap-3">
@@ -25,7 +25,7 @@ export default function Navbar() {
             className="h-10 w-auto object-contain"
           />
           <span className="hidden md:inline-block text-[#f8bc69] font-morganite text-[2.5rem] tracking-widest uppercase not-italic leading-none">
-            July 2026
+            JULY 2026
           </span>
         </div>
 
@@ -54,7 +54,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed top-0 right-0 h-1/3 w-1/4 bg-mpf-black backdrop-blur-sm p-6 flex flex-col gap-4 text-center font-Morganite text-2xl uppercase text-mpf-yellow rounded-bl-lg items-end z-50 shadow-xl not-italic">
+        <div className="md:hidden fixed top-0 right-0 h-1/3 w-1/4 bg-mpf-black backdrop-blur-sm p-6 flex flex-col gap-4 text-center font-morganite text-2xl uppercase text-mpf-yellow rounded-bl-lg items-end z-50 shadow-xl not-italic">
           {navLinks.map((link) => (
             <a
               key={link.label}
@@ -70,6 +70,7 @@ export default function Navbar() {
     </header>
   );
 }
+
 
 
 
