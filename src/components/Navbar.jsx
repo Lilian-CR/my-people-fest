@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import { useState } from "react";
-import logo2026 from "../images/Logo_2026_transparent.png";
+import logo2026 from "../images/Logo_2026-transparent.png";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -70,3 +70,4 @@ export default function Navbar() {
     </header>
   );
 }
+
