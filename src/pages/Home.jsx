@@ -19,9 +19,9 @@ export default function Home() {
       </section>
 
       {/* LINE-UP */}
-      <section id="lineup_26" className="w-full bg-[#000000] text-[#ffffff] py-16 px-4">
+      <section id="lineup_26" className="w-full bg-[#3f5774] text-[#ffffff] py-16 px-4">
         <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">
-          LINE-UP IN DECEMBER 2026
+          LINE-UP ANNOUNCEMENT IN DECEMBER 2026
         </h2>
       </section>
 
@@ -86,19 +86,19 @@ export default function Home() {
       )}
 
       {/* GENERAL INFO */}
-      <section id="infos" className="w-full bg-[#1b2128] text-white py-16 text-center px-4">
+      <section id="infos" className="w-full bg-[#ffffff] text-black py-16 text-center px-4">
         <h2 className="text-3xl font-bold mb-10 tracking-wide">
           GENERAL INFORMATION / LOANDING
         </h2>
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="w-full bg-[#000000] py-16 px-4 text-[#ffffff]">
+      <section id="about" className="w-full bg-[#37655e] py-16 px-4 text-[#000000]">
         <h2 className="text-3xl font-semibold mb-6 tracking-wide text-center">ABOUT</h2>
         <div className="max-w-3xl mx-auto leading-relaxed text-sm md:text-base text-justify">
           <p className="mb-4 font-medium">
             MY PEOPLE FEST is a HARDCORE/PUNK festival dedicated to bringing greater diversity
-            to the hardcore, punk, alternative, and metal scenes in Berlin and across Europe.
+            to the hardcore, punk, alternative, and metal scenes in Berlin and across Europe, with exclusive focus on bands with at least one FLINTA* or BIPOC member.
             <br /><br />
             For too long, political HARDCORE/PUNK festivals have displayed banners like
             “GOOD NIGHT WHITE PRIDE” and “AGAINST RACISM, SEXISM…” — yet 90% of their lineups
@@ -111,7 +111,7 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="w-full bg-[#1b2128] py-10 text-center px-4">
+      <section id="contact" className="w-full bg-[#000000] py-10 text-center px-4">
         <h2 className="text-2xl font-semibold mb-4">CONTACT</h2>
         <p className="text-sm mb-4">mypeoplebooking (at) gmail . com</p>
         <div className="flex justify-center gap-6 text-lg" />
@@ -120,3 +120,4 @@ export default function Home() {
     </div>
   );
 }
+
