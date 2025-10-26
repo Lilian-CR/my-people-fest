@@ -19,7 +19,7 @@ export default function Home() {
       </section>
 
       {/* LINE-UP */}
-      <section id="lineup_26" className="w-full bg-[#000000] text-[#ffffff] py-16 px-4">
+      <section id="lineup_26" className="w-full bg-[#000000] text-[#ffffff] py-16 text-center px-4">
         <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">
           LINE-UP 
         </h2>
@@ -126,6 +126,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
