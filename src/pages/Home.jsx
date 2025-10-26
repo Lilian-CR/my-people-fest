@@ -19,10 +19,13 @@ export default function Home() {
       </section>
 
       {/* LINE-UP */}
-      <section id="lineup_26" className="w-full bg-[#3f5774] text-[#ffffff] py-16 px-4">
+      <section id="lineup_26" className="w-full bg-[#000000] text-[#ffffff] py-16 px-4">
         <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">
-          LINE-UP ANNOUNCEMENT IN DECEMBER 2026
+          LINE-UP 
         </h2>
+        p className="mb-4 font-medium">
+            Announcement in December 2026
+          </p>
       </section>
 
       {/* MODAL */}
@@ -88,12 +91,15 @@ export default function Home() {
       {/* GENERAL INFO */}
       <section id="infos" className="w-full bg-[#ffffff] text-black py-16 text-center px-4">
         <h2 className="text-3xl font-bold mb-10 tracking-wide">
-          GENERAL INFORMATION / LOANDING
+          GENERAL INFORMATION
         </h2>
+         p className="mb-4 font-medium">
+            Loanding
+          </p>
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="w-full bg-[#37655e] py-16 px-4 text-[#000000]">
+      <section id="about" className="w-full bg-[#3f5774] py-16 px-4 text-[#000000]">
         <h2 className="text-3xl font-semibold mb-6 tracking-wide text-center">ABOUT</h2>
         <div className="max-w-3xl mx-auto leading-relaxed text-sm md:text-base text-justify">
           <p className="mb-4 font-medium">
@@ -120,4 +126,5 @@ export default function Home() {
     </div>
   );
 }
+
 
