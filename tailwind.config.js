@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'mpf-blue': '#3f5774',
-        'mpf-black': '#221313',
+        'mpf-black': '#000000',
         'mpf-white': '#F4F4F4',
         'mpf-green': '#36645d',
         'mpf-yellow': '#f8bc69',
