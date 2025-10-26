@@ -94,15 +94,15 @@ export default function Home() {
           GENERAL INFORMATION
         </h2>
          <p className="mb-4 font-medium">
-            Loading
+            Loading...
           </p>
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="w-full bg-[#3f5774] py-16 px-4 text-[#000000]">
+      <section id="about" className="w-full bg-[#3f5774] py-16 px-4 text-[#ffffff]">
         <h2 className="text-3xl font-semibold mb-6 tracking-wide text-center">ABOUT</h2>
         <div className="max-w-3xl mx-auto leading-relaxed text-sm md:text-base text-justify">
-          <p className="mb-4 font-medium">
+          <p className="mb-4 font-small">
             MY PEOPLE FEST is a HARDCORE/PUNK festival dedicated to bringing greater diversity
             to the hardcore, punk, alternative, and metal scenes in Berlin and across Europe, with exclusive focus on bands with at least one FLINTA* or BIPOC member.
             <br /><br />
@@ -126,6 +126,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
