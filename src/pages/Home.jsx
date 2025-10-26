@@ -94,7 +94,7 @@ export default function Home() {
           GENERAL INFORMATION
         </h2>
          <p className="mb-4 font-medium">
-            Loanding
+            Loading
           </p>
       </section>
 
@@ -126,6 +126,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
