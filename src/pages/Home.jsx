@@ -1,5 +1,5 @@
 // src/pages/Home.jsx
-import logo from "../images/Logo_2026_transparent.png";
+import logo from '../images/Logo_2026-transparent.png';
 import background from "../images/Hero_2026.jpg"; 
 
 export default function Home() {
@@ -24,3 +24,4 @@ export default function Home() {
     </div>
   );
 }
+
